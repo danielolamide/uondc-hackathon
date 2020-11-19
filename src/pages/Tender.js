@@ -1,5 +1,6 @@
 import React from "react";
 import { PrimaryButton } from "../components/Buttons";
+import MapContainer from "../components/MapContainer";
 
 export default function Tender() {
 	return (
@@ -8,7 +9,7 @@ export default function Tender() {
 				<span className="text-xl text-gray-800">Tender No. 1</span>
 			</div>
 			<div>
-				<span className="text-xl text-gray-800">Map View</span>
+				<MapContainer />
 			</div>
 			<div className="flex flex-col text-xl text-gray-800">
 				<span>Tender Name</span>
